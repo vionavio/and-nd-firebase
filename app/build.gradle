@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 repositories {
     mavenLocal()
@@ -38,6 +39,9 @@ dependencies {
 
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.appcompat:appcompat:1.2.0'
+
+    //Firebase
+    implementation 'com.google.firebase:firebase-database:19.5.1'
 
     // Displaying images
     implementation 'com.github.bumptech.glide:glide:4.11.0'
